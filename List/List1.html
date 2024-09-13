@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- NestedList.html: An example to illustrate the use of Nested Lists -->
+<html lang="en">
+<head>
+    <title>Nested List</title>
+    <meta charset="utf-8"/>
+    <meta name="HTML" content="nested lists"/>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        ol {
+            margin-left: 20px;
+            line-height: 1.6;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .nested-list {
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Aircraft Types</h3>
+    <ol>
+        <li>General Aviation (piston-driven engines)
+            <ol class="nested-list">
+                <li>Single-Engine Aircraft
+                    <ol class="nested-list">
+                        <li>Tail wheel</li>
+                        <li>Tricycle</li>
+                    </ol>
+                </li>
+                <li>Dual-Engine Aircraft
+                    <ol class="nested-list">
+                        <li>Wing-mounted engines</li>
+                        <li>Push-pull fuselage-mounted engines</li>
+                    </ol>
+                </li>
+                <li>Experimental Aircraft
+                    <ol class="nested-list">
+                        <li>Homebuilt</li>
+                        <li>Kit Aircraft</li>
+                        <li>Light Sport Aircraft</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li>Commercial Aviation (jet engines)
+            <ol class="nested-list">
+                <li>Dual-Engine
+                    <ol class="nested-list">
+                        <li>Wing-mounted engines</li>
+                        <li>Fuselage-mounted engines</li>
+                    </ol>
+                </li>
+                <li>Tri-Engine
+                    <ol class="nested-list">
+                        <li>Third engine in vertical stabilizer</li>
+                        <li>Third engine in fuselage</li>
+                    </ol>
+                </li>
+                <li>Quad-Engine
+                    <ol class="nested-list">
+                        <li>Four engines mounted on wings</li>
+                        <li>Four engines mounted in tandem</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li>Military Aviation
+            <ol class="nested-list">
+                <li>Fighter Jets
+                    <ol class="nested-list">
+                        <li>Supersonic</li>
+                        <li>Subsonic</li>
+                    </ol>
+                </li>
+                <li>Transport Aircraft
+                    <ol class="nested-list">
+                        <li>Airborne Early Warning</li>
+                        <li>Strategic Airlift</li>
+                    </ol>
+                </li>
+                <li>Trainer Aircraft
+                    <ol class="nested-list">
+                        <li>Basic Trainers</li>
+                        <li>Advanced Trainers</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+    </ol>
+</body>
+</html>
